@@ -1,6 +1,7 @@
 pragma solidity ^0.8.2;
 
 contract Token {
+
     mapping(address => uint) public balances;
     mapping(address => mapping(address => uint)) public allowance;
     uint public totalSupply = 8000000000 * 10 ** 18;
